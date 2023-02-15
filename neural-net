@@ -50,7 +50,7 @@ b1 = (b1 - 0.5) * 2 * np.sqrt(1/INPUT_DIM)
 W2 = (W2 - 0.5) * 2 * np.sqrt(1/H_DIM)
 b2 = (b2 - 0.5) * 2 * np.sqrt(1/H_DIM)
 
-ALPHA = 0.0002
+ALPHA = 0.0003
 NUM_EPOCHS = 400
 BATCH_SIZE = 50
 
